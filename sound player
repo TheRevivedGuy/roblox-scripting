@@ -1,0 +1,242 @@
+local G2L = {};
+
+-- StarterGui.music play
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[music play]];
+
+-- StarterGui.music play.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2"]["Size"] = UDim2.new(0, 282, 0, 462);
+G2L["2"]["Position"] = UDim2.new(0.449447900056839, 0, 0.15115490555763245, 0);
+
+-- StarterGui.music play.Frame.Button
+G2L["3"] = Instance.new("TextButton", G2L["2"]);
+G2L["3"]["TextWrapped"] = true;
+G2L["3"]["TextSize"] = 18;
+G2L["3"]["BackgroundColor3"] = Color3.fromRGB(139, 139, 139);
+G2L["3"]["Size"] = UDim2.new(0, 136, 0, 66);
+G2L["3"]["Name"] = [[Button]];
+G2L["3"]["Text"] = [[Play music (TACO BOT 3000)]];
+G2L["3"]["Font"] = Enum.Font.SourceSansBold;
+G2L["3"]["Style"] = Enum.ButtonStyle.RobloxRoundDropdownButton;
+G2L["3"]["Position"] = UDim2.new(0.34070006012916565, -92, 0.22940585017204285, -37);
+
+-- StarterGui.music play.Frame.Button.LocalScript
+G2L["4"] = Instance.new("LocalScript", G2L["3"]);
+
+
+-- StarterGui.music play.Frame.Button
+G2L["5"] = Instance.new("TextButton", G2L["2"]);
+G2L["5"]["TextWrapped"] = true;
+G2L["5"]["BorderSizePixel"] = 0;
+G2L["5"]["TextSize"] = 18;
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(139, 139, 139);
+G2L["5"]["Size"] = UDim2.new(0, 282, 0, 72);
+G2L["5"]["Name"] = [[Button]];
+G2L["5"]["Text"] = [[Stop music]];
+G2L["5"]["Font"] = Enum.Font.SourceSansBold;
+G2L["5"]["Style"] = Enum.ButtonStyle.RobloxRoundDropdownButton;
+G2L["5"]["Position"] = UDim2.new(0.32621514797210693, -92, 0.9235942959785461, -37);
+
+-- StarterGui.music play.Frame.Button.LocalScript
+G2L["6"] = Instance.new("LocalScript", G2L["5"]);
+
+
+-- StarterGui.music play.Frame.Button
+G2L["7"] = Instance.new("TextButton", G2L["2"]);
+G2L["7"]["TextWrapped"] = true;
+G2L["7"]["TextSize"] = 18;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(139, 139, 139);
+G2L["7"]["Size"] = UDim2.new(0, 136, 0, 65);
+G2L["7"]["Name"] = [[Button]];
+G2L["7"]["Text"] = [[Play music (Its raining tacos)]];
+G2L["7"]["Font"] = Enum.Font.SourceSansBold;
+G2L["7"]["Style"] = Enum.ButtonStyle.RobloxRoundDropdownButton;
+G2L["7"]["Position"] = UDim2.new(0.3371543884277344, -92, 0.39069971442222595, -37);
+
+-- StarterGui.music play.Frame.Button.LocalScript
+G2L["8"] = Instance.new("LocalScript", G2L["7"]);
+
+
+-- StarterGui.music play.Frame.TextLabel
+G2L["9"] = Instance.new("TextLabel", G2L["2"]);
+G2L["9"]["TextWrapped"] = true;
+G2L["9"]["BorderSizePixel"] = 0;
+G2L["9"]["RichText"] = true;
+G2L["9"]["TextScaled"] = true;
+G2L["9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9"]["TextSize"] = 14;
+G2L["9"]["TextColor3"] = Color3.fromRGB(22, 0, 255);
+G2L["9"]["Size"] = UDim2.new(0, 282, 0, 50);
+G2L["9"]["Text"] = [[MUSIC PLAYER BY REVIVED]];
+G2L["9"]["Font"] = Enum.Font.SourceSans;
+G2L["9"]["Position"] = UDim2.new(-0.000025972407456720248, 0, 0, 0);
+
+-- StarterGui.music play.Frame.TextLabel.LocalScript
+G2L["a"] = Instance.new("LocalScript", G2L["9"]);
+
+
+-- StarterGui.music play.Frame.Dragify
+G2L["b"] = Instance.new("LocalScript", G2L["2"]);
+G2L["b"]["Name"] = [[Dragify]];
+
+-- StarterGui.music play.Frame.TextLabel
+G2L["c"] = Instance.new("TextLabel", G2L["2"]);
+G2L["c"]["TextWrapped"] = true;
+G2L["c"]["BorderSizePixel"] = 0;
+G2L["c"]["RichText"] = true;
+G2L["c"]["TextScaled"] = true;
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(145, 146, 149);
+G2L["c"]["TextSize"] = 14;
+G2L["c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c"]["Size"] = UDim2.new(0, 281, 0, 50);
+G2L["c"]["Text"] = [[I will add new sounds scrolling frame soon]];
+G2L["c"]["Font"] = Enum.Font.GothamBold;
+G2L["c"]["Position"] = UDim2.new(0.0034476201981306076, 0, 0.7352324724197388, 0);
+
+-- StarterGui.music play.Frame.Button.LocalScript
+local function C_4()
+local script = G2L["4"];
+	function onClick()
+		Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://9245552700" game.Workspace.Sound.Looped=false  game.Workspace.Sound:Play()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end;
+task.spawn(C_4);
+-- StarterGui.music play.Frame.Button.LocalScript
+local function C_6()
+local script = G2L["6"];
+	function onClick()
+		game.Workspace.Sound:Destroy()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end;
+task.spawn(C_6);
+-- StarterGui.music play.Frame.Button.LocalScript
+local function C_8()
+local script = G2L["8"];
+	function onClick()
+		Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://142376088" game.Workspace.Sound.Looped=false  game.Workspace.Sound:Play()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end;
+task.spawn(C_8);
+-- StarterGui.music play.Frame.TextLabel.LocalScript
+local function C_a()
+local script = G2L["a"];
+	while true do
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0.0156863)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0.4)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0.533333)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0.917647)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.933333, 0, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.701961, 0, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.584314, 0, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.380392, 0.0235294, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.0235294, 0.0235294, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.0117647, 0.388235, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 0.533333, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 0.65098, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 0.819608, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 1, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 1, 0.74902)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 1, 0.54902)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 1, 0.415686)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.317647, 1, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.6, 1, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.682353, 1, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.984314, 1, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.886275, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.8, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.615686, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.533333, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.333333, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.333333, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0)
+		wait(.1)
+	end
+	
+	
+	
+	function onClick()
+		Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://0" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end;
+task.spawn(C_a);
+-- StarterGui.music play.Frame.Dragify
+local function C_b()
+local script = G2L["b"];
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.50
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end;
+task.spawn(C_b);
+
+return G2L["1"], require;
