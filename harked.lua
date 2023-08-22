@@ -371,7 +371,7 @@ function getPlayer(list,speaker)
 end
 function Destroy(instance)
 	spawn(function()
-		game:GetService("ReplicatedStorage").DeleteCar:FireServer(instance)
+		game:GetService("ReplicatedStorage").Remotes.DestroyInstance:FireServer(instance)
 	end)
 end
 
@@ -9355,10 +9355,10 @@ slock.TextColor3 = Color3.fromRGB(255, 255, 255)
 slock.TextSize = 23.000
 slock.MouseButton1Click:connect(function()
 	if slockk then 
-		queue.Text = "Reborn by TEAM AMOGUS LEADER   SLOCK: false"
+		queue.Text = "Reborn by c00lkidd#1483   SLOCK: false"
 		slockk = false
 	else
-		queue.Text = "Reborn by TEAM AMOGUS LEADER   SLOCK: true"
+		queue.Text = "Reborn by c00lkidd#1483   SLOCK: true"
 		slockk = true
 	end
 end)
@@ -9750,7 +9750,7 @@ credits.BackgroundTransparency = 1.000
 credits.Position = UDim2.new(0, 0, 1, 0)
 credits.Size = UDim2.new(0, 291, 0, 23)
 credits.Font = Enum.Font.SourceSansLight
-credits.Text = "Script by TEAM AMOGUS and c00lkidd, UI by Unverified"
+credits.Text = "Script by PandaExploits#3098, UI by Unverified"
 credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 credits.TextSize = 17.000
 credits.TextWrapped = true
@@ -9762,7 +9762,7 @@ queue.BackgroundTransparency = 1.000
 queue.Position = UDim2.new(0, 0, 10.0333338, 0)
 queue.Size = UDim2.new(0, 292, 0, 23)
 queue.Font = Enum.Font.SourceSans
-queue.Text = "Reborn by TEAM AMOGUS   SLOCK: false"
+queue.Text = "Reborn by PandaExploits#3098 (Mobile supported i think)   SLOCK: false"
 queue.TextColor3 = Color3.fromRGB(255, 0, 4)
 queue.TextSize = 20.000
 queue.TextWrapped = true
